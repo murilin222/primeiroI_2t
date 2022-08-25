@@ -7,7 +7,7 @@ h1{
   text-align: center;
 }
 
-.caixa1{
+.amizade2{
   position: absolute;
   width: 200px;
   height: 200px;
@@ -15,19 +15,27 @@ h1{
   right: 0;
   bottom: 0;
 }
-.caixa1{
+.colega2{
   position: absolute;
-  width: 200px;
-  height: 200px;
+  width:  20px;
+  height: 20px;
   background: blueviolet;
-  right: 1;
-  bottom: 1;
+  right: 0;
+  bottom: 0;
+}
+.amizade1{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: blueviolet;
+  right: 0;
+  bottom: 0;
 }
 .menuPrincipal{
   position: absolute;
   width: 100%;
   height: 80px;
-  background: rgb(206, 26, 20);
+  background: rgb(216, 240, 243);
   font-family: 'Courier New', Courier, monospace;
   top: 0;
   left: 0;
@@ -50,14 +58,12 @@ li a{
   text-decoration: none;
 }
 li a:hover{
-  background: rgb(170, 30, 30);
-  color:rgb(228, 118, 140);
+  background: rgb(209, 102, 30);
+  color:white;
 
 }
-#abelha {
- width: 15%; 
-}
-.caixaAbelha{
+ 
+.amizade2{
   position: absolute;
   top: 45px;
   width: 90%;
@@ -72,10 +78,10 @@ li a:hover{
   display: flex;
   justify-content: center;
 }
-.caixaAbelha2{
+.colega2{
   position: absolute;
-  top: 0px;
-  width: 20%;
+  top: 45px;
+  width: 90%;
   height: 120px;
   background: rgb(209, 167, 104);
   left: 0;
@@ -87,10 +93,25 @@ li a:hover{
   display: flex;
   justify-content: end;
 }
+.amizade1{
+  position: absolute;
+  top: 0px;
+  width: 2%;
+  height: 8px;
+  background: rgb(209, 167, 104);
+  left: 0;
+  margin: 15px;
+  border-color: coral;
+  border-style: solid;
+  border-width: 1px;
+  padding: 1px;
+  display: flex;
+  justify-content: end;
+}
 .rodape{
   position: absolute;
   width: 100%;
-  height: 35px;
+  height: 25px;
   background: white;
   color: rgb(0, 0, 0);
   bottom: 0;
@@ -99,5 +120,5 @@ li a:hover{
 }
 .conteudo{
   position: absolute;
-  top: 45px;
+  top: 50px;
 }
